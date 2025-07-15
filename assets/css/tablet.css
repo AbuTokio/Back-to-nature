@@ -1,0 +1,47 @@
+@media only screen and (min-width: 768px) {
+  .header__section {
+    height: 492px;
+  }
+
+  .header__container {
+    height: 396px;
+  }
+
+  .header__container h1 {
+    font-size: 68px;
+    width: 260px;
+    position: absolute;
+    top: 160px;
+    left: 110px;
+  }
+
+  .form__container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: -70px;
+  }
+
+  .infocards__section {
+    background: none;
+  }
+
+  .cards-heading__container {
+    width: 610px;
+  }
+
+  .cards__container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  footer {
+    height: 270px;
+  }
+
+  .footer-links__wrapper {
+    flex-direction: row;
+    gap: 55px;
+  }
+}
