@@ -1,0 +1,243 @@
+/* # General Styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Urbanist";
+  src: url("../fonts/Urbanist-VariableFont_wght.ttf");
+}
+
+:root {
+  font-family: "Urbanist";
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  height: 2000px;
+}
+
+/* # Header / Navbar */
+
+header {
+  height: 93.62px;
+  width: 100vw;
+  padding: 16px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 999;
+}
+
+.header-wrapper {
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 45px;
+  height: 61.62px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-wrapper nav {
+  display: none;
+}
+
+.hamburger-wrapper {
+  height: 24px;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.burger {
+  background-color: #111827;
+  height: 4px;
+  width: 24px;
+  border-radius: 2px;
+}
+
+/* # main - header-section */
+
+main {
+  margin-top: 94px;
+}
+
+.header__section {
+  height: 386px;
+  padding: 0 20px;
+}
+
+.header__container {
+  height: 179px;
+  background: url("../img/Ilustration_Header\ 1.svg") top/contain no-repeat;
+  position: relative;
+}
+
+.header__container h1 {
+  font-size: 38px;
+  font-weight: 900;
+  line-height: 80%;
+  width: 133.73px;
+  position: absolute;
+  top: 63px;
+  left: 41px;
+}
+
+.form__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.button__listbox {
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 14px 16px;
+  height: 56px;
+  width: 295px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: inset -4px -4px 0px 0px #00000040;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.button__listbox-green {
+  background-color: #a9cba6;
+  color: white;
+}
+
+.infocards__section {
+  padding: 0 20px;
+  background: url("../img/infocards-bg.svg");
+  background-position-x: center;
+  background-position-y: 5%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cards__section {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 64px;
+}
+
+.cards-heading__container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cards-heading__container h2 {
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.cards-heading__container p {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.24px;
+  text-align: center;
+}
+
+.cards__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card__item {
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: inset -5px -5px 0px 0px #00000040;
+  height: 289px;
+  width: 233px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card__item img {
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+}
+
+.card__item h3 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.24px;
+  line-height: 27px;
+  text-align: center;
+  width: 130px;
+}
+
+.card__item p {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.37px;
+  line-height: 26px;
+  text-align: center;
+  width: 145px;
+}
+
+.cards__section .button__listbox img:last-of-type {
+  visibility: hidden;
+}
+
+.car-cards__section {
+  padding: 0 20px;
+  background: url("../img/Background\ Bulb.svg");
+  background-position-x: center;
+  background-position-y: 2%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid red;
+}
+
+.car-cards__container {
+  gap: 40px;
+}
+
+.car-card__item {
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: inset -5px -5px 0px 0px #00000040;
+  height: 545px;
+  width: 353px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; */
+}
+
+.car-card__wrapper {
+  border: 1px solid green;
+  height: 100%;
+}
